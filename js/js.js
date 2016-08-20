@@ -141,8 +141,9 @@ function flashAuto(){
         flash02=setTimeout('flashLeftIn'+newPos+'()',800);
     }
 }
+var  flashDo=setInterval(flashAuto,3000);
 $(".flash").mouseleave(function(){      //鼠标离开时自动播放
-    flashDo=setInterval(flashAuto,6000);
+    flashDo=setInterval(flashAuto,3000);
 });
 $(".flash").mouseenter(function(){      //鼠标进入停止播放
     clearInterval(flashDo);
