@@ -1,1 +1,1 @@
-# WeChatPay
+#weChatPay
